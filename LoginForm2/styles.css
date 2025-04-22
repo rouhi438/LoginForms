@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto", sans-serif;
+}
+body {
+  background-image: url(image/Alp\ mountain.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+  width: 600px;
+  height: 350px;
+  position: relative;
+  background-image: url(image/Alp\ muntain\ in\ summer2.jpg);
+  margin: 250px auto;
+  border-radius: 10px;
+}
+.left_side {
+  width: 50%;
+  height: 100%;
+}
+.btn_sign_in {
+  all: unset;
+  width: 150px;
+  height: 35px;
+  background-color: #0367a6;
+  border-radius: 20px;
+  text-align: center;
+  margin: 150px 75px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+}
+.right_side {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #eee;
+  z-index: 2;
+  border-radius: 0 10px 10px 0;
+}
+.right_side p {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.user,
+.email,
+.psw {
+  width: 250px;
+  padding: 10px;
+  margin: 10px 25px;
+  border: none;
+}
+.btn_sign_up {
+  all: unset;
+  width: 150px;
+  height: 35px;
+  background-color: #0367a6;
+  border-radius: 20px;
+  text-align: center;
+  margin-left: 75px;
+  margin-top: 15px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+}

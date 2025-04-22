@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "lato", sans-serif;
+}
+.container {
+  width: 600px;
+  height: 400px;
+  background-color: lightblue;
+  margin: 120px auto;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.sign_in {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 10px 0 0 10px;
+}
+.header_word {
+  font-size: 30px;
+  margin-top: 70px;
+  text-align: center;
+  color: black;
+}
+.sign_in ul {
+  margin: 10px 80px;
+}
+.sign_in ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 3px;
+}
+li i {
+  width: 35px;
+  height: 35px;
+  margin: auto;
+  padding: 12px;
+  border: 1px solid #e3dfdf;
+  border-radius: 50%;
+  font-size: 12px;
+  cursor: pointer;
+}
+p {
+  text-align: center;
+  font-size: 12px;
+  color: #7c7b7b;
+}
+form .input {
+  padding: 10px;
+  width: 220px;
+  margin: 8px 40px;
+  outline: none;
+  border: none;
+  background-color: #eee;
+  cursor: pointer;
+  font-size: 10px;
+  color: #7c7b7b;
+}
+form a {
+  text-decoration: none;
+  font-size: 12px;
+  display: block;
+  text-align: center;
+  color: #7c7b7b;
+}
+.btn_sign_in {
+  all: unset;
+  width: 100px;
+  padding: 8px;
+  font-size: 12px;
+  background-color: rgb(255, 70, 81);
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #eee;
+}
+.sign_up {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  background-color: rgb(255, 70, 81);
+  border-radius: 0 10px 10px 0;
+}
+.sign_up h2 {
+  color: #fff;
+  font-size: 30px;
+  margin-top: 140px;
+  text-align: center;
+}
+.sign_up p {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 15px;
+}
+.btn_sign_up {
+  all: unset;
+  width: 100px;
+  padding: 8px;
+  font-size: 12px;
+  background-color: rgb(255, 70, 81);
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #eee;
+  border: 1px solid #fff;
+}
