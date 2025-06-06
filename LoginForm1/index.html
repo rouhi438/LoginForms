@@ -4,21 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Log_in & Sign_in</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <title>LogIn & SignUp</title>
   </head>
   <body>
     <div class="container">
-      <p>Have an account?</p>
-      <a href="#"><button class="login">Log in</button></a>
-      <div class="info_page">
-        <form action="">
-          <input class="email" type="email" value="Email" />
-          <input type="text" value="Full Name" />
-          <input type="text" value="Username" />
-          <input type="password" placeholder="Password" />
+      <div class="left-container hiddenText child">
+        <p>Have an account?</p>
+        <button id="logIn">LogIn</button>
+      </div>
+      <div class="left-page show child">
+        <form>
+          <input type="text" placeholder="UserName" />
+          <input type="password" placeholder="PassWord" />
+          <button type="button" class="log-btn">LogIn</button>
         </form>
-        <a href="#"><button class="signup">Sign up</button></a>
+      </div>
+      <div class="right-page hidden child">
+        <form>
+          <input type="text" value="Full Name" />
+          <input class="email" type="email" placeholder="Email" />
+          <input type="text" placeholder="UserName" />
+          <input type="password" placeholder="Password" />
+          <button type="button" class="sign-btn">SignUp</button>
+        </form>
+      </div>
+      <div class="right-container show child">
+        <p>Don't have an account?</p>
+        <button id="SignUp">SignUp</button>
+      </div>
+      <div class="check-sub hidden">
+        <i class="fa-solid fa-check"></i>
       </div>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
