@@ -49,11 +49,11 @@ body {
 p {
   width: 100%;
   color: #fff;
+  text-align: center;
 }
 #logIn,
 #SignUp {
   all: unset;
-
   width: 70px;
   height: 30px;
   text-align: center;
@@ -127,7 +127,21 @@ input {
 .animate {
   animation: spin 3s ease-in-out forwards;
 }
-
+@media (max-width: 400px) {
+  .container {
+    max-width: 380px;
+  }
+  .left-page,
+  .right-page {
+    max-width: 190px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .left-container {
+    left: 20px;
+  }
+}
 @keyframes spin {
   0% {
     transform: rotate(0deg) scale(1);
