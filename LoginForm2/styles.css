@@ -121,3 +121,14 @@ input {
 .right-active {
   transform: translateX(100%);
 }
+
+@media (max-width: 400px) {
+  .container {
+    max-width: 390px;
+    max-height: 300px;
+  }
+  button[type="button"] {
+    padding: 7px 30px;
+    font-size: 12px;
+  }
+}
